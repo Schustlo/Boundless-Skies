@@ -1,11 +1,9 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
 public class CustomGravity : MonoBehaviour
 {
-    // Gravity Scale editable on the inspector
-    // providing a gravity scale per object
-
     public float gravityScale = 1.0f;
 
     // Global Gravity doesn't appear in the inspector. Modify it here in the code

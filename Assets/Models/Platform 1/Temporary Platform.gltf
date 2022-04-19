@@ -1,0 +1,332 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 50,
+      "type": "VEC3",
+      "max": [
+        4.800477981567383,
+        0.0,
+        4.800477981567383
+      ],
+      "min": [
+        -4.800477981567383,
+        -3.5998823642730713,
+        -4.800477981567383
+      ],
+      "name": "part0_vertices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 50,
+      "type": "VEC3",
+      "max": [
+        0.923828125,
+        1.0,
+        0.923828125
+      ],
+      "min": [
+        -0.923828125,
+        -1.0,
+        -0.923828125
+      ],
+      "name": "part0_normals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 50,
+      "type": "VEC2",
+      "max": [
+        0.1865234375,
+        0.125
+      ],
+      "min": [
+        0.0,
+        0.00091552734375
+      ],
+      "name": "part0_uvs"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 50,
+      "type": "VEC4",
+      "max": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "min": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "name": "part0_joints"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 50,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "part0_weights"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 96,
+      "type": "SCALAR",
+      "max": [
+        49
+      ],
+      "min": [
+        0
+      ],
+      "name": "part0_indices"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2,
+      "type": "MAT4",
+      "max": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "inverse_matrix"
+    }
+  ],
+  "asset": {
+    "generator": "klonoa2-tools (https://github.com/evilarceus/klonoa2-tools)",
+    "copyright": "Models by Namco, extracted by t4ils",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 600,
+      "byteStride": 12,
+      "target": 34962,
+      "name": "vertices"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 600,
+      "byteLength": 600,
+      "byteStride": 12,
+      "target": 34962,
+      "name": "normals"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1200,
+      "byteLength": 400,
+      "byteStride": 8,
+      "target": 34962,
+      "name": "uvs"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1600,
+      "byteLength": 400,
+      "byteStride": 8,
+      "name": "joints"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2000,
+      "byteLength": 800,
+      "byteStride": 16,
+      "target": 34962,
+      "name": "weights"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2800,
+      "byteLength": 192,
+      "target": 34963,
+      "name": "indices"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2992,
+      "byteLength": 128,
+      "name": "inverse_matrix"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/gltf-buffer;base64,hJ2ZQAAAAAATgv4/hJ2ZQAAAAAATgv6/AAAAAAAAAAAAAAAAE4L+PwAAAACEnZnAE4L+vwAAAACEnZnAE4L+PwAAAACEnZlAE4L+vwAAAACEnZlAhJ2ZwAAAAAATgv4/hJ2ZwAAAAAATgv6/hJ2ZQHlkZsATgv6/E4L+P3lkZsCEnZnAhJ2ZQAAAAAATgv6/E4L+PwAAAACEnZnAhJ2ZQHlkZsATgv4/hJ2ZQHlkZsATgv6/hJ2ZQAAAAAATgv4/hJ2ZQAAAAAATgv6/E4L+P3lkZsCEnZnAE4L+v3lkZsCEnZnAE4L+PwAAAACEnZnAE4L+vwAAAACEnZnAE4L+P3lkZsCEnZlAhJ2ZQHlkZsATgv4/E4L+PwAAAACEnZlAhJ2ZQAAAAAATgv4/E4L+v3lkZsCEnZnAhJ2ZwHlkZsATgv6/E4L+vwAAAACEnZnAhJ2ZwAAAAAATgv6/hJ2ZwHlkZsATgv6/hJ2ZwHlkZsATgv4/hJ2ZwAAAAAATgv6/hJ2ZwAAAAAATgv4/E4L+v3lkZsCEnZlAE4L+P3lkZsCEnZlAE4L+vwAAAACEnZlAE4L+PwAAAACEnZlAhJ2ZwHlkZsATgv4/E4L+v3lkZsCEnZlAhJ2ZwAAAAAATgv4/E4L+vwAAAACEnZlAhJ2ZQHlkZsATgv4/AAAAAHlkZsAAAAAAhJ2ZQHlkZsATgv6/E4L+P3lkZsCEnZnAE4L+v3lkZsCEnZnAhJ2ZwHlkZsATgv4/E4L+v3lkZsCEnZlAE4L+P3lkZsCEnZlAhJ2ZwHlkZsATgv6/AAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAIBsPwAAAAAA4MO+AODDPgAAAAAAgGy/AIBsPwAAAAAA4MO+AODDPgAAAAAAgGy/AIBsPwAAAAAA4MM+AIBsPwAAAAAA4MO+AIBsPwAAAAAA4MM+AIBsPwAAAAAA4MO+AODDPgAAAAAAgGy/AODDvgAAAAAAgGy/AODDPgAAAAAAgGy/AODDvgAAAAAAgGy/AODDPgAAAAAAgGw/AIBsPwAAAAAA4MM+AODDPgAAAAAAgGw/AIBsPwAAAAAA4MM+AODDvgAAAAAAgGy/AIBsvwAAAAAA4MO+AODDvgAAAAAAgGy/AIBsvwAAAAAA4MO+AIBsvwAAAAAA4MO+AIBsvwAAAAAA4MM+AIBsvwAAAAAA4MO+AIBsvwAAAAAA4MM+AODDvgAAAAAAgGw/AODDPgAAAAAAgGw/AODDvgAAAAAAgGw/AODDPgAAAAAAgGw/AIBsvwAAAAAA4MM+AODDvgAAAAAAgGw/AIBsvwAAAAAA4MM+AODDvgAAAAAAgGw/AAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAOD9PQDAGD0A4P09AIC1PQDAfT0A4IA9AICzPQAAAD4AwBQ9AAAAPgCAsz0AAIA6AMAUPQAAgDoAAAAAAMAYPQAAAAAAgLU9AAABPgAAgD0AAD8+AACAPQAAAT4AAHA6AAA/PgAAcDoAAAE+AACAPQAAPz4AAIA9AAABPgAAcDoAAD8+AABwOgAAAT4AAIA9AAA/PgAAgD0AAAE+AABwOgAAPz4AAHA6AAABPgAAgD0AAD8+AACAPQAAAT4AAHA6AAA/PgAAcDoAAAE+AACAPQAAPz4AAIA9AAABPgAAcDoAAD8+AABwOgAAAT4AAIA9AAA/PgAAgD0AAAE+AABwOgAAPz4AAHA6AAABPgAAgD0AAD8+AACAPQAAAT4AAHA6AAA/PgAAcDoAAAE+AACAPQAAPz4AAIA9AAABPgAAcDoAAD8+AABwOgDg/T0AwBg9AMB9PQDggD0A4P09AIC1PQCAsz0AAAA+AMAUPQAAAD4AAAAAAMAYPQDAFD0AAIA6AICzPQAAgDoAAAAAAIC1PQEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAQACAAEAAwACAAIAAwAEAAAAAgAFAAUAAgAGAAIABwAGAAQACAACAAgABwACAAkACgALAAoADAALAA0ADgAPAA4AEAAPABEAEgATABIAFAATABUAFgAXABYAGAAXABkAGgAbABoAHAAbAB0AHgAfAB4AIAAfACEAIgAjACIAJAAjACUAJgAnACYAKAAnACkAKgArACsAKgAsACoALQAsAC4AKgAvAC8AKgAwACoAKQAwAC4AMQAqACoAMQAtAAAAgD8AAAAAAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAAAAgD8AAIA/AAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAACAPwAAAAAAAACAAAAAgAAAAIAAAIA/",
+      "byteLength": 3120
+    }
+  ],
+  "images": [
+    {
+      "uri": "Temporary Platform.png",
+      "name": "Temporary Platform.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mtl0"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "JOINTS_0": 3,
+            "WEIGHTS_0": 4
+          },
+          "indices": 5,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part0"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "skin": 0,
+      "name": "part0"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "root_joint"
+    },
+    {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "joint0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9728,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 6,
+      "skeleton": 1,
+      "joints": [
+        1,
+        2
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Temporary Platform.png"
+    }
+  ]
+}

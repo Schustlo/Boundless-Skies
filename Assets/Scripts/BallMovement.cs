@@ -8,7 +8,7 @@ public class BallMovement : MonoBehaviour
      * You should use the rigidbody in the FixedUpdate Function 
      * In unity Y is Up in space, and Z is back and foward in space
      * 
-     *
+     */
     [SerializeField]
     private float ballspeed = 5f;
     private bool unground = false; 
@@ -127,5 +127,4 @@ public class BallMovement : MonoBehaviour
         input.AxisY -= MovementVertical;
     }
     #endregion
-    */
 }

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.0.0 commit date:2021-12-02, commit time:18:35, hash:f1cca3055776</authoring_tool>
+    </contributor>
+    <created>2022-01-10T18:09:03</created>
+    <modified>2022-01-10T18:09:03</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="mtl0-effect">
+      <profile_COMMON>
+        <newparam sid="Temporary_Platform__Long__png-surface">
+          <surface type="2D">
+            <init_from>Temporary_Platform__Long__png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Temporary_Platform__Long__png-sampler">
+          <sampler2D>
+            <source>Temporary_Platform__Long__png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="Temporary_Platform__Long__png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="Temporary_Platform__Long__png" name="Temporary_Platform__Long__png">
+      <init_from>Temporary%20Platform%20(Long).png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="mtl0-material" name="mtl0">
+      <instance_effect url="#mtl0-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="part0-mesh" name="part0">
+      <mesh>
+        <source id="part0-mesh-positions">
+          <float_array id="part0-mesh-positions-array" count="288">9.600207 -1.98825 0 9.600207 1.98825 0 4.79981 0 0 6.788353 4.800396 0 2.811267 4.800396 0 6.788353 -4.800396 0 2.811267 -4.800396 0 0 -1.98825 0 0 1.98825 0 9.600207 1.98825 -3.599711 6.788353 4.800396 -3.599711 9.600207 1.98825 0 6.788353 4.800396 0 9.600207 -1.98825 -3.599711 9.600207 1.98825 -3.599711 9.600207 -1.98825 0 9.600207 1.98825 0 6.788353 4.800396 -3.599711 2.811267 4.800396 -3.599711 6.788353 4.800396 0 2.811267 4.800396 0 6.788353 -4.800396 -3.599711 9.600207 -1.98825 -3.599711 6.788353 -4.800396 0 9.600207 -1.98825 0 -2.81156 4.800396 -3.599711 -2.81156 4.800396 0 2.811267 4.800396 -3.599711 2.811267 4.800396 0 0 1.98825 0 2.811267 4.800396 0 -2.81156 4.800396 0 2.811267 4.800396 -3.599711 4.79981 0 -3.599711 0 1.98825 -3.599711 0 -1.98825 -3.599711 2.811267 -4.800396 -3.599711 6.788353 -4.800396 -3.599711 9.600207 -1.98825 -3.599711 9.600207 1.98825 -3.599711 6.788353 4.800396 -3.599711 0 -1.98825 -3.599711 -4.79981 0 -3.599711 0 1.98825 -3.599711 -2.81156 4.800396 -3.599711 -6.788353 4.800396 -3.599711 0 1.98825 -3.599711 -2.81156 4.800396 -3.599711 2.811267 4.800396 -3.599711 0 -1.98825 0 0 1.98825 0 -4.79981 0 0 -2.81156 4.800396 0 -6.788353 4.800396 0 2.811267 -4.800396 -3.599711 6.788353 -4.800396 -3.599711 2.811267 -4.800396 0 6.788353 -4.800396 0 0 -1.98825 0 -2.81156 -4.800396 0 2.811267 -4.800396 0 -2.81156 -4.800396 0 -6.788353 -4.800396 0 -9.600207 -1.98825 0 2.811267 -4.800396 0 -2.81156 -4.800396 0 2.811267 -4.800396 -3.599711 -2.81156 -4.800396 -3.599711 2.811267 -4.800396 -3.599711 -2.81156 -4.800396 -3.599711 0 -1.98825 -3.599711 -2.81156 -4.800396 -3.599711 -6.788353 -4.800396 -3.599711 -9.600207 -1.98825 -3.599711 -9.6005 1.98825 0 -9.6005 1.98825 -3.599711 -2.81156 4.800396 -3.599711 -6.788353 4.800396 -3.599711 -2.81156 4.800396 0 -6.788353 4.800396 0 -6.788353 4.800396 -3.599711 -9.6005 1.98825 -3.599711 -6.788353 4.800396 0 -9.6005 1.98825 0 -9.6005 1.98825 -3.599711 -9.600207 -1.98825 -3.599711 -9.6005 1.98825 0 -9.600207 -1.98825 0 -9.600207 -1.98825 -3.599711 -6.788353 -4.800396 -3.599711 -9.600207 -1.98825 0 -6.788353 -4.800396 0 -6.788353 -4.800396 -3.599711 -2.81156 -4.800396 -3.599711 -6.788353 -4.800396 0 -2.81156 -4.800396 0</float_array>
+          <technique_common>
+            <accessor source="#part0-mesh-positions-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="part0-mesh-normals">
+          <float_array id="part0-mesh-normals-array" count="129">0 0 1 0.9239041 0.3826243 1.82818e-5 0.3825875 0.9239193 1.83748e-5 0.9239041 0.3826243 -1.83684e-5 0.3825875 0.9239193 -1.82881e-5 0.9239117 -0.382606 1.82775e-5 0.9239116 0.3826059 1.83642e-5 0.9239116 -0.3826059 -1.83642e-5 0.9239117 0.382606 -1.82775e-5 0.3826059 0.9239116 1.82775e-5 0 1 0 0.3826059 0.9239116 -1.83642e-5 0.3825875 -0.9239193 1.82881e-5 0.9239041 -0.3826243 1.83684e-5 0.3825875 -0.9239193 -1.83748e-5 0.9239041 -0.3826243 -1.82818e-5 1.49892e-7 0 -1 0 0 -1 1.99856e-7 0 -1 -1.4987e-7 0 -1 -1.99826e-7 0 -1 -1.9985e-7 0 -1 0 -1 0 0.3826059 -0.9239116 1.83642e-5 0.3826059 -0.9239116 -1.82775e-5 1.99826e-7 0 -1 1.49859e-7 0 -1 -0.3826059 0.9239116 1.83642e-5 -0.3826059 0.9239116 -1.82775e-5 -0.3825838 0.9239209 1.8286e-5 -0.9239209 0.3825837 1.83727e-5 -0.3825837 0.9239209 -1.83727e-5 -0.9239209 0.3825838 -1.8286e-5 -0.9239213 0.3825829 1.82796e-5 -0.9239202 -0.3825854 1.83599e-5 -0.9239214 0.3825823 -1.83663e-5 -0.92392 -0.3825859 -1.82733e-5 -0.9239041 -0.3826243 1.82818e-5 -0.3825875 -0.9239193 1.83748e-5 -0.9239041 -0.3826243 -1.83684e-5 -0.3825875 -0.9239193 -1.82881e-5 -0.3826059 -0.9239116 1.82775e-5 -0.3826059 -0.9239116 -1.83642e-5</float_array>
+          <technique_common>
+            <accessor source="#part0-mesh-normals-array" count="43" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="part0-mesh-map-0">
+          <float_array id="part0-mesh-map-0-array" count="360">0.1239624 0.9627075 0.1239624 0.911377 0.06195068 0.9370728 0.1239624 0.911377 0.08764648 0.875 0.06195068 0.9370728 0.06195068 0.9370728 0.08764648 0.875 0.03631591 0.875 0.1239624 0.9627075 0.06195068 0.9370728 0.08764648 0.9990234 0.08764648 0.9990234 0.06195068 0.9370728 0.03631591 0.9990234 0.06195068 0.9370728 0 0.9627075 0.03631591 0.9990234 0.03631591 0.875 0 0.911377 0.06195068 0.9370728 0 0.911377 0 0.9627075 0.06195068 0.9370728 0.125 0.9375 0.1865234 0.9375 0.125 0.9990845 0.1865234 0.9375 0.1865234 0.9990845 0.125 0.9990845 0.125 0.9375 0.1865234 0.9375 0.125 0.9990845 0.1865234 0.9375 0.1865234 0.9990845 0.125 0.9990845 0.125 0.9375 0.1865234 0.9375 0.125 0.9990845 0.1865234 0.9375 0.1865234 0.9990845 0.125 0.9990845 0.125 0.9375 0.1865234 0.9375 0.125 0.9990845 0.1865234 0.9375 0.1865234 0.9990845 0.125 0.9990845 0.1865234 0.9375 0.1865234 0.9990845 0.125 0.9375 0.1865234 0.9990845 0.125 0.9990845 0.125 0.9375 0 0.9627075 0.03631591 0.9990234 0.06195068 0.9370728 0.03631591 0.875 0.06195068 0.9370728 0 0.911377 0 0.911377 0.06195068 0.9370728 0 0.9627075 0.06195068 0.9370728 0.03631591 0.9990234 0 0.9627075 0.08764648 0.9990234 0.06195068 0.9370728 0.1239624 0.9627075 0.1239624 0.9627075 0.06195068 0.9370728 0.1239624 0.911377 0.06195068 0.9370728 0.08764648 0.875 0.1239624 0.911377 0.06195068 0.9370728 0.03631591 0.875 0.08764648 0.875 0.06195068 0.9370728 0.08764648 0.9990234 0.03631591 0.9990234 0.1239624 0.9627075 0.06195068 0.9370728 0.1239624 0.911377 0.1239624 0.911377 0.06195068 0.9370728 0.08764648 0.875 0.06195068 0.9370728 0.03631591 0.875 0.08764648 0.875 0 0.9627075 0.03631591 0.9990234 0.06195068 0.9370728 0.1239624 0.9627075 0.1239624 0.911377 0.06195068 0.9370728 0.1239624 0.911377 0.08764648 0.875 0.06195068 0.9370728 0.06195068 0.9370728 0.08764648 0.875 0.03631591 0.875 0.125 0.9375 0.1865234 0.9375 0.125 0.9990845 0.1865234 0.9375 0.1865234 0.9990845 0.125 0.9990845 0.06195068 0.9370728 0.08764648 0.875 0.1239624 0.911377 0.1239624 0.9627075 0.06195068 0.9370728 0.08764648 0.9990234 0.08764648 0.9990234 0.06195068 0.9370728 0.03631591 0.9990234 0.06195068 0.9370728 0 0.9627075 0.03631591 0.9990234 0.1865234 0.9990845 0.125 0.9990845 0.1865234 0.9375 0.125 0.9990845 0.125 0.9375 0.1865234 0.9375 0.06195068 0.9370728 0.08764648 0.875 0.1239624 0.911377 0.1239624 0.9627075 0.08764648 0.9990234 0.06195068 0.9370728 0.08764648 0.9990234 0.03631591 0.9990234 0.06195068 0.9370728 0.06195068 0.9370728 0.03631591 0.9990234 0 0.9627075 0.03631591 0.875 0 0.911377 0.06195068 0.9370728 0 0.911377 0 0.9627075 0.06195068 0.9370728 0.03631591 0.875 0.06195068 0.9370728 0 0.911377 0 0.911377 0.06195068 0.9370728 0 0.9627075 0.125 0.9375 0.1865234 0.9375 0.125 0.9990845 0.1865234 0.9375 0.1865234 0.9990845 0.125 0.9990845 0.125 0.9375 0.1865234 0.9375 0.125 0.9990845 0.1865234 0.9375 0.1865234 0.9990845 0.125 0.9990845 0.125 0.9375 0.1865234 0.9375 0.125 0.9990845 0.1865234 0.9375 0.1865234 0.9990845 0.125 0.9990845 0.125 0.9375 0.1865234 0.9375 0.125 0.9990845 0.1865234 0.9375 0.1865234 0.9990845 0.125 0.9990845 0.125 0.9375 0.1865234 0.9375 0.125 0.9990845 0.1865234 0.9375 0.1865234 0.9990845 0.125 0.9990845</float_array>
+          <technique_common>
+            <accessor source="#part0-mesh-map-0-array" count="180" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="part0-mesh-vertices">
+          <input semantic="POSITION" source="#part0-mesh-positions"/>
+        </vertices>
+        <triangles material="mtl0-material" count="60">
+          <input semantic="VERTEX" source="#part0-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#part0-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#part0-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 0 1 2 0 2 1 0 3 3 0 4 2 0 5 2 0 6 3 0 7 4 0 8 0 0 9 2 0 10 5 0 11 5 0 12 2 0 13 6 0 14 2 0 15 7 0 16 6 0 17 4 0 18 8 0 19 2 0 20 8 0 21 7 0 22 2 0 23 9 1 24 10 2 25 11 3 26 10 2 27 12 4 28 11 3 29 13 5 30 14 6 31 15 7 32 14 6 33 16 8 34 15 7 35 17 9 36 18 10 37 19 11 38 18 10 39 20 10 40 19 11 41 21 12 42 22 13 43 23 14 44 22 13 45 24 15 46 23 14 47 25 10 48 26 10 49 27 10 50 26 10 51 28 10 52 27 10 53 29 0 54 30 0 55 31 0 56 32 16 57 33 16 58 34 16 59 34 17 60 33 17 61 35 17 62 33 18 63 36 18 64 35 18 65 37 19 66 33 19 67 38 19 68 38 17 69 33 17 70 39 17 71 33 20 72 40 20 73 39 20 74 33 17 75 32 17 76 40 17 77 33 17 78 37 17 79 36 17 80 41 17 81 42 17 82 43 17 83 43 21 84 42 21 85 44 21 86 42 17 87 45 17 88 44 17 89 46 17 90 47 17 91 48 17 92 49 0 93 50 0 94 51 0 95 50 0 96 52 0 97 51 0 98 51 0 99 52 0 100 53 0 101 54 22 102 55 23 103 56 22 104 55 23 105 57 24 106 56 22 107 58 0 108 59 0 109 60 0 110 49 0 111 51 0 112 61 0 113 61 0 114 51 0 115 62 0 116 51 0 117 63 0 118 62 0 119 64 22 120 65 22 121 66 22 122 65 22 123 67 22 124 66 22 125 68 17 126 69 17 127 70 17 128 41 21 129 71 21 130 42 21 131 71 17 132 72 17 133 42 17 134 42 25 135 72 25 136 73 25 137 53 0 138 74 0 139 51 0 140 74 0 141 63 0 142 51 0 143 45 26 144 42 26 145 75 26 146 75 17 147 42 17 148 73 17 149 76 10 150 77 27 151 78 10 152 77 27 153 79 28 154 78 10 155 80 29 156 81 30 157 82 31 158 81 30 159 83 32 160 82 31 161 84 33 162 85 34 163 86 35 164 85 34 165 87 36 166 86 35 167 88 37 168 89 38 169 90 39 170 89 38 171 91 40 172 90 39 173 92 41 174 93 22 175 94 42 176 93 22 177 95 22 178 94 42 179</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Temporary_Platform__Long__part0-skin" name="Temporary Platform (Long)">
+      <skin source="#part0-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Temporary_Platform__Long__part0-skin-joints">
+          <Name_array id="Temporary_Platform__Long__part0-skin-joints-array" count="2">root_joint joint0</Name_array>
+          <technique_common>
+            <accessor source="#Temporary_Platform__Long__part0-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Temporary_Platform__Long__part0-skin-bind_poses">
+          <float_array id="Temporary_Platform__Long__part0-skin-bind_poses-array" count="32">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Temporary_Platform__Long__part0-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Temporary_Platform__Long__part0-skin-weights">
+          <float_array id="Temporary_Platform__Long__part0-skin-weights-array" count="96">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Temporary_Platform__Long__part0-skin-weights-array" count="96" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Temporary_Platform__Long__part0-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Temporary_Platform__Long__part0-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="96">
+          <input semantic="JOINT" source="#Temporary_Platform__Long__part0-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Temporary_Platform__Long__part0-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 1 94 1 95</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Temporary_Platform__Long_" name="Temporary Platform (Long)" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Temporary_Platform__Long__root_joint" name="root_joint" sid="root_joint" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Temporary_Platform__Long__joint0" name="joint0" sid="joint0" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">1</tip_y>
+                <tip_z sid="tip_z" type="float">0</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">1</tip_y>
+              <tip_z sid="tip_z" type="float">0</tip_z>
+            </technique>
+          </extra>
+        </node>
+        <node id="part0" name="part0" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#Temporary_Platform__Long__part0-skin">
+            <skeleton>#Temporary_Platform__Long__root_joint</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="mtl0-material" target="#mtl0-material">
+                  <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
